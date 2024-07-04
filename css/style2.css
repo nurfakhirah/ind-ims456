@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://i.pinimg.com/564x/8a/07/f6/8a07f68e7d1610593ee456612190ecce.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1e2b0;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Languages styles */
+.language {
+    margin-bottom: 15px;
+}
+
+.language-name {
+    display: inline-block;
+    width: 140px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.progress-bar {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 12.5px;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 0.6s ease;
+}
+
+.percent {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 14px;
+    color:black;
+    line-height: 25px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    left:0;
+    bottom:0;
+}
+
+.footer a {
+    color: #ad8787;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color:#f1e2b0;
+}
+
+

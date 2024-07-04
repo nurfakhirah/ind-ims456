@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="skills.html">SKILLS & LANGUAGES</a>
+        <a href="experience.html">EXPERIENCE</a>
+    </nav>
+
+    <div class="header">
+        <h1>My Education Journey</h1>
+    </div>
+    
+    <div class="education-section">
+        <div class="image1">
+            <img src="image/SPM.jpg" alt="SPM">
+            <img src="image/mrsm.jpg" alt="MRSM">
+        </div>
+        <div class="secondary">
+            <h2>Secondary Education</h2>
+            <table>
+                <tr>
+                    <th>Bil</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Major in</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>SMK Kota, Kota Bharu, Kelantan</td>
+                    <td>2015 - 2017 & 2019</td>
+                    <td>Add Math, Accounting and Economic</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>MRSM YT Ketengah, Terengganu</td>
+                    <td>2018</td>
+                    <td>Science Accounting</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="education-section">
+        <div class="image2">
+            <img src="image/convocation.jpg" alt="Convocation">
+        </div>
+        <div class="diploma">
+            <h2>Diploma</h2>
+            <table>
+                <tr>
+                    <th>Bil</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Major in</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>UMCCed, Cyberjaya, Selangor</td>
+                    <td>2020 - 2022</td>
+                    <td>Accounting</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="education-section">
+        <div class="image3">
+            <img src="image/ba240.jpg" alt="Degree">
+        </div>
+        <div class="degree">
+            <h2>Degree</h2>
+            <table>
+                <tr>
+                    <th>Bil</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Major in</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>UiTM Kampus Kota Bharu, Kelantan</td>
+                    <td>2023 - Current</td>
+                    <td>Business Administration (Hons.) Marketing</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 11</div>
+            <img src="image/beach.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 11</div>
+            <img src="image/spm2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 11</div>
+            <img src="image/BONDING.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 11</div>
+            <img src="image/volley.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 11</div>
+            <img src="image/spm3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 11</div>
+            <img src="image/dip1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 11</div>
+            <img src="image/dip2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 11</div>
+            <img src="image/convocation.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 11</div>
+            <img src="image/dipriend.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 11</div>
+            <img src="image/sem2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">11 / 11</div>
+            <img src="image/classmate.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div class="footer">
+        <p>Hp: 011-39129121 | Instagram: <a href="https://www.instagram.com/n.fakhirah_">n.fakhirah_</a> | Facebook: <a href="https://www.facebook.com/nur.fakhirah.71/">Nur Fakhirah</a> | Email: <a href="mailto:nurfakhirah09@gmail.com">nurfakhirah09@gmail.com</a></p>
+        </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slides[slideIndex-1].style.display = "block";  
+        }
+    </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://i.pinimg.com/564x/8a/07/f6/8a07f68e7d1610593ee456612190ecce.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1e2b0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #444;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.job:hover {
+    transform: translateY(-5px);
+}
+
+.job img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.job-details {
+    flex: 1;
+}
+
+.job-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.job-details p, .job-details ul {
+    margin: 10px 0;
+    color: #555;
+}
+
+.job-details ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    left:0;
+    bottom:0;
+}
+
+.footer a {
+    color: #ad8787;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color:#f1e2b0;
+}

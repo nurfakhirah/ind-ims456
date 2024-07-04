@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://i.pinimg.com/564x/8a/07/f6/8a07f68e7d1610593ee456612190ecce.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1e2b0;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.profile-content h1 {
+    color: #ad8787;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.profile-content p, .profile-content ul {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.profile-content ul {
+    padding-left: 20px;
+}
+
+.profile-content li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    left:0;
+    bottom:0;
+}
+
+.footer a {
+    color: #ad8787;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color:#f1e2b0;
+}

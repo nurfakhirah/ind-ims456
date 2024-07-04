@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://i.pinimg.com/564x/8a/07/f6/8a07f68e7d1610593ee456612190ecce.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1e2b0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #444;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.activities {
+    margin-bottom: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activities h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.activities ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.activities li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.slider {
+    margin-top: 40px;
+}
+
+.slider h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    flex: none;
+    scroll-snap-align: start;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.slide p {
+    margin-top: 10px;
+    color: #555;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    left:0;
+    bottom:0;
+}
+
+.footer a {
+    color: #ad8787;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color:#f1e2b0;
+}
